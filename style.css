@@ -56,8 +56,8 @@ a{
 }
 
 .header__nav_listItem:hover{
-  background-color: #273746;
-  border: 1px solid #85929E;
+  background-color: beige;
+  border: 1px solid beige;
   border-radius: 1rem;
   transition: .5s;
 }
@@ -72,12 +72,14 @@ a{
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
+  margin-top: 15rem;
 }
 
 .profile__image{
+  background-image: url(./Assets/Images/serena.jpg);
+  width: auto;
   height: auto;
-  max-width: 100%;
-  width: 180rem;
+  border-radius: 50%;
 }
 
 .projects__title{
