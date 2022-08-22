@@ -106,7 +106,7 @@ ul li a:hover:before{
   transform-origin:left;
   transform:scaleX(1);
 }
-git 
+
 .profile{
     display: flex;
     justify-content: space-between;
@@ -177,7 +177,7 @@ git
 }
 
 .footer{
-    background-color: #212F3D;
+    background-color: rgb(61, 8, 38);
     display: flex;
     align-items: center;
     justify-content: space-between;
