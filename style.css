@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 body{
-    background: url(./Assets/Images/brickBackground.jpg);
+    background-color: rgb(58, 8, 37);
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -24,9 +25,9 @@ a{
 }
 
 .container{
+    font-family: 'Barlow Condensed', sans-serif;
     background-color: rgb(61, 8, 38);
     background-color: rgb(61, 8, 38,.5);
-   
     margin: 2rem auto;
     max-width: 90rem;
     width: 90%;
@@ -40,9 +41,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(61, 8, 38);
+    background-color: rgb(72, 10, 45);
     position: sticky;
     top: 0;
+  font-family: 'Barlow Condensed', sans-serif;;
 }
 
 #header__logo{
@@ -113,20 +115,25 @@ ul li a:hover:before{
     margin: 2rem;
 }
 
-.article__profile{
+p{
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 20px;
 }
 
 .profile__image{
     height:180px;
     width: 180px;
     border-radius: 50%;
+    margin-right: 20px;
 }
 
 .projects__title{
     text-align: center;
+    font-size: 50px;
     
 }
 
@@ -135,6 +142,7 @@ ul li a:hover:before{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: auto;
     margin-bottom: 1rem;
+    
 }
 
 .projects__column_figure{
@@ -151,14 +159,15 @@ ul li a:hover:before{
 }
 
 .projects__column_title{
+   font-size: 30px;
     margin: 1rem;
     text-align: center;
     
 }
 
 .projects__column_title:hover{
-  background-color: #273746;
-  border: 1px solid #85929E;
+  background-color: #000000;
+  color:whitesmoke;
   border-radius: 1rem;
   transition: .5s;
 }
@@ -170,31 +179,19 @@ ul li a:hover:before{
 }
 
 .projects__column_image:hover{
-    border: 1px solid white;
+    background-color: #000000;
+    color: whitesmoke;
     backdrop-filter: blur(10px);
     filter: blur(4px);
     transition: 0.5s ease;
 }
 
 .footer{
-    background-color: rgb(61, 8, 38);
+    background-color: rgb(72, 10, 45);
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 3rem;
-}
-
-.linkedin{
-    color: #273746;
-    width: 2rem;
-    height: 2rem;
-}
-
-.github{
-    color: #000509;
-    width: 2rem;
-    height: 2rem;
-    
 }
 
 #contactInfo{
@@ -215,8 +212,11 @@ ul li a:hover:before{
     margin-left: 1rem;
 }
 
-.footer__social{
-    margin-right: 1rem;
+.footer.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  padding-right: 1rem;
 }
 
 @media only screen and (max-width: 767px){
@@ -240,14 +240,6 @@ ul li a:hover:before{
         display: flex;
         flex-direction: column;
     }
-
-    .footer{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        
-    }
-
     .footer__copyright{
         margin: 0;
     }
