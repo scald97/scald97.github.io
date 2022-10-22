@@ -2,115 +2,208 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serena Howard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>responsive personal portfolio website design tutorail</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
-
 <body>
-    <div class="container">
-        <header class="header">
-            <img src="Assets/Images/serena.jpg" alt="" class="profile__image">
-            <h1 id="header__logo">Serena Howard</h1>
-            <h3 id="header_sub">Software Developer</h3>
-            <ul class="header__nav_list">
-                <li class="header__nav_listItem"><a href="#top">About</a></li>
-                <li class="header__nav_listItem"><a href="#portfolio">Portfolio</a></li>
-                <li class="header__nav_listItem"><a href="#footer">Contact</a></li>
-            </ul>
-        </nav>
-    </figure>
-</header>
-<figure>
-
-<section class="profile">
     
-                <article class="article__profile">
-                    <p>I am Serena Howard. As a person who likes to find answers and fix problems as well as take on challenges software development has 
-                        always been something I found interesting but thought was too out of my league. However, after 10 years of thriving but not feeling 
-                        fulfilled in customer service I knew that I needed to do something I was more passionate about. I first started learning how to code 
-                        taking a free course offered by Harvard as a CS50 class. It was just an introduction to the many languages used by developers and engineers
-                        but I was hooked. After beginning my research on programs and with a few friends already working in the field I had a few suggestions
-                        on how to further my education and learn to code I applied to We Can Code IT. Five months of hard work later I am only begginning this journey
-                        but I am so excited to keep learning and growing adding to the number of women in tech!
-                    </p>
-                </article>
-            </section>
-            <h2 class="projects__title">Projects</h2>
-            <section id="myProjects">
-                <div class="projects">
-                    <article class="projects__column">
-                        <h3 class="projects__column_title">Virtual Pet Amok</h3>
-                        <figure class="projects__column_figure">
-                            <a href="https://github.com/2022-April-Java-PT-Classroom/virtual-pet-amok-scald97.git"
-                            target="_blank">
-                            <img src="./Assets/Images/amok.png"
-                            class="projects__column_image">
-                        </span>
-                    </a>
-                </figure>
-                <p>With this project I used Java with a focus on TDD and OOP to
-                    create a game that allows the user to run a pet shelter. In this shelter, the user is allowed to
-                    rescue pets while also having the option to have the pets adopted changing the number of pets
-                    within the shelter. The application also allows the user to care for the pets such as feeding,
-                    walking, and more.</p>
-                </article>
-                
-                <article class="projects__column">
-                    <h3 class="projects__column_title">Bird Watcher</h3>
-                    <figure class="projects__column_figure">
-                        <a href="https://github.com/2022-April-Java-PT-Classroom/team-3-bird-watchers-jpa"
-                        target="_blank">
-                            <img src="./Assets/Images/fish.png"
-                            class="projects__column_image">
-                    </span>
-                </a>
-            </figure>
-            <p>This was a team project implementing TDD, MVC, and HTML to create a web-page for the user to use a research
-                about bird-watching opprotunities in different regions of Africa while also offering information on the different 
-                birds that can be found in that region and the best tools to do so.
-            </p>
-        </article>
-        
-        <article class="projects__column">
-            <h3 class="projects__column_title">Agape</h3>
-            <figure class="projects__column_figure">
-                <a href="https://github.com/2022-April-Java-PT-Classroom/virtual-pet-amok-scald97.git"
-                target="_blank">
-                    <img src="./Assets/Images/Agape.png"
-                class="projects__column_image">
-            </span>
-        </a>
-    </figure>
-    <p>Our final project of the program was another team project in which we were able to use the different tools we had learned
-        to create a full stack web site. For this site we used Java in the backend to create MVC API's to call to the front end where 
-        we used JavaScript with REACT and CSS to create the functions of the site which act as a resource for people to educate themselves on 
-        social justice issues and activism. </p>
-    </article>
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="Assets/Images/serena.jpg" alt="">
+        <h3 class="name">serena howard</h3>
+        <p class="post">software developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>serena howard</span></h1>
+    <p>I am Serena Howard. As a person who likes to find answers and fix problems as well as take on challenges software development has 
+        always been something I found interesting but thought was too out of my league. However, after 10 years of thriving but not feeling 
+        fulfilled in customer service I knew that I needed to do something I was more passionate about. I first started learning how to code 
+        taking a free course offered by Harvard as a CS50 class. It was just an introduction to the many languages used by developers and engineers
+        but I was hooked. After beginning my research on programs and with a few friends already working in the field I had a few suggestions
+        on how to further my education and learn to code I applied to We Can Code IT. Five months of hard work later I am only begginning this journey
+        but I am so excited to keep learning and growing adding to the number of women in tech!
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> serena </h3>
+        <h3> <span> qualification : </span> software development </h3>
+        <h3> <span> post : </span> We Can Code IT </h3>
+        <h3> <span> language : </span> Java, JavaScript, HTML,CSS </h3>
+        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>1+</span>
+            <h3>years of experience</h3>
+        </div>
+
+    </div>
+
 </div>
 
 </section>
-<footer class="footer">
-    <section class="contactInfo__list">
 
-            <h5>Email: serena.ann.caldarella.com</h5>
-            <h5>Phone Number: 380-710-4100</h5>
+<!-- about section ends -->
 
-    </section>
-    
-    <section class="footer_socials"></section>
-    <a href="https://github.com/scald97" target="_blank"><img src="uit uit-github-alt"
-        alt="" class=""><i class="fa fa-github" style="font-size:40px;color:whitesmoke"></i></i></a>
-        <a href="https://www.linkedin.com/in/serena-ann-howard/" target="_blank"><img
-            src="fa fa-linkedin-square" alt="" class=""><i class="fa fa-linkedin-square" style="font-size:40px;color:whitesmoke"></i></a>
-            <small class="footer__copyright">&copy Serena Howard 2022</small>
-    </section>
-        </footer>
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2017</span>
+        <h3>Intercultrul Studies, Specification in Gulf Arabic</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
     </div>
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2022</span>
+        <h3>software development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+    </div>
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> my <span>portfolio</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="Assets/Images/amok.png" alt="">
+    </div>
+
+    <div class="box">
+        <img src="Assets/Images/fish.png" alt="">
+    </div>
+
+    <div class="box">
+        <img src="Assets/Images/Agape.png">
+    </div>
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> serena.ann.caldarella@gmail.com</h3>
+            <h3> <i class="fas fa-phone"></i> +1(380)710-4100 </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> columbus, OH. </h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+
 </body>
 </html>
