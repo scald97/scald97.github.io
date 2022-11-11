@@ -34,5 +34,6 @@ $(document).ready(function(){
       );
   
     });
+    $('btn').click(function(){ /* code to download? */ });
   
   });
