@@ -1,8 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap'); */
+@import url(https://github.com/googlefonts/questrial);
 :root{
     --purple:rgb(58, 8, 37);
+    --green :#606c38;
 }
 
 *{
@@ -16,8 +17,8 @@
 }
 
 *::selection{
-    background:var(--purple);
-    color:rgb(75, 74, 74);
+    background:var(--green);
+    color: whitesmoke;
 }
 
 html{
@@ -34,7 +35,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--purple);
+    background:var(--green);
 }
 
 body{
@@ -65,7 +66,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--purple);
+    background:var(--green);
 }
 
 .heading{
@@ -78,7 +79,7 @@ section{
 }
 
 .heading span{
-    color:var(--purple);
+    color:var(--green);
 }
 
 header{
@@ -87,7 +88,7 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a;
+    background: #606c38;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,17 +102,17 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.25rem solid var(--purple);
+    border:.25rem solid #333a1e ;
 }
 
 header .user .name{
     font-size: 3.5rem;
-    color:#fff;
+    color:#D89839;
 }
 
 header .user .post{
     font-size: 2rem;
-    color:#eee;
+    color:#D89839;
 }
 
 header .navbar{
@@ -128,14 +129,14 @@ header .navbar ul li a{
     display: block;
     padding:1rem;
     margin:1.5rem 0;
-    background:#333;
+    background:#333a1e;
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
 }
 
 header .navbar ul li a:hover{
-    background:var(--purple);
+    background: #D89839;
 }
 
 header .navbar .info{
@@ -143,8 +144,8 @@ header .navbar .info{
     color: #fff;
 }
 .info h3 i{
-    padding-right: 1rem;
-    color:var(--purple);
+    /* padding-right: 3rem; */
+    color : #D89839;
 }
 #menu{
     position: fixed;
@@ -176,7 +177,7 @@ header .navbar .info{
 }
 
 .home h1 span{
-    color:var(--purple);
+    color:var(--green);
 }
 
 .home p{
@@ -202,7 +203,7 @@ button.btn{
 
 .about .row .info h3{
     font-size: 3rem;
-    color:var(--purple);
+    color:var(--green);
     padding:1rem 0;
     font-weight: normal;
 }
