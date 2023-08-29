@@ -12,7 +12,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform:inherit;
+    /* text-transform:inherit; */
     transition: all .2s linear;
 }
 
@@ -39,7 +39,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: rgb(75, 74, 74);
+    background: #b1ac85;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -107,7 +107,7 @@ header .user img{
 
 header .user .name{
     font-size: 3.5rem;
-    color:#D89839;
+    color:white;
 }
 
 header .user .post{
@@ -129,7 +129,7 @@ header .navbar ul li a{
     display: block;
     padding:1rem;
     margin:1.5rem 0;
-    background:#333a1e;
+    background:#b1ac85;
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
@@ -150,7 +150,7 @@ header .navbar .info{
 #menu{
     position: fixed;
     top:2rem; right:2rem;
-    background:#333;
+    background:#b1ac85;
     color:#fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -289,7 +289,7 @@ button.btn{
 .contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
-    background:#3333;
+    background:#b1ac85;
     color:#fff;
     text-transform: none;
     font-size: 1.7rem;
